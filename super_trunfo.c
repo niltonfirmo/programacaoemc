@@ -4,9 +4,9 @@
 
 int main() {
     // Variáveis para armazenar os dados de cada cidade
-    char estado[20]; // Código Estado
+    char estado[25]; // Código Estado
     char codigo[5];  // Código da cidade (ex: A01, A02, ..., H04)
-    char nomecidade[20]; // Nome da Cidade
+    char nomecidade[25]; // Nome da Cidade
     int populacao;    // População da cidade
     float area;       // Área da cidade (em km²)
     float pib;        // PIB da cidade (em milhões)
