@@ -25,8 +25,20 @@ int main() {
         rainha++;
     } while (rainha < 8);
 
-    printf("\n*** XADREZ ***\n");
+    printf("\nMovimento do Cavalo:\n");
+    for (int i = 0, j = 0; i < 2 || j < 1; i++) {
+        if (i < 2) {
+            printf("Baixo\n");
+        }
+        if (i == 1) {
+            printf("Esquerda\n\n");
+            break;
+        }
 
+        
+    
+    }
     return 0;
+
 }
 
